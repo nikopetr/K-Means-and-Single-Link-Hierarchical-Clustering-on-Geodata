@@ -9,6 +9,7 @@ The code of the project is located in the **clustering.R** file
 **Authors**: Nikolas Petrou, Salome Nikolaishvili
 
 ## Abstract - Introduction
+![Image of cities](https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/cities.jpg)
 * This simple work compares the K-Means algorithm versus the Single-Link Hierarchical Clustering algorithm
 * Mostly emphasized on the quality of the results and not on the performance
 * Consists of examples of geodata where the weaknesses of each algorithm were clearly shown
