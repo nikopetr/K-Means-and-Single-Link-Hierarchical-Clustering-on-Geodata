@@ -2,7 +2,7 @@
 
 A Data Mining project which focuses on the comparison between different un-supervised clustering algorithms.
 
-The project was part of the [Data Mining and Data Warehouses class](https://datalab-old.csd.auth.gr/~gounaris/courses/dwdm/index.html), where it was ranked first among the same type of projects.
+The project was part of the [Data Mining and Data Warehouses class](https://qa.auth.gr/el/class/1/40049931), where it was ranked first among the same type of projects.
 
 **Authors**: Nikolas Petrou, Salome Nikolaishvili
 
