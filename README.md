@@ -1,7 +1,7 @@
 # K-Means-and-Single-Link-Hierarchical-Clustering-on-World-Cities-data
 
 <p align="center">
-  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/cities.jpg" width="700" height="550"/>
+  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/cities.jpg" width="700" height="700"/>
 </p>
 
 A Data Mining project which focuses on the comparison between different un-supervised clustering algorithms.
