@@ -13,7 +13,7 @@ The project was part of the Data Mining and Data Warehouses class, where it was 
 * Programming language: R
 
 ## Dataset
-* Dataset: World Cities database
+* Dataset:  [World Cities database](https://www.kaggle.com/juanmah/world-cities)
 * Data for cities around the world
 * Geographical coordinates
 * Each different sample corresponds to a different city
@@ -29,17 +29,17 @@ The project was part of the Data Mining and Data Warehouses class, where it was 
 
 ### Example 1
 **Selected countries**: 
-* India
-* Iran
-* Mongolia
-**648 cities (data samples)**
+ * India
+ * Iran
+ * Mongolia
+* **648 cities (data samples)**
 
 ### Example 2
 **Selected countries**: 
-* Papua New Guinea
-* China
-* Philippines
-**906 cities (data samples)**
+ * Papua New Guinea
+ * China
+ * Philippines
+* **906 cities (data samples)**
 
 ## K-Means Clustering Results
 
