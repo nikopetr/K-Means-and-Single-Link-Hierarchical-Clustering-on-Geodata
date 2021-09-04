@@ -1,4 +1,4 @@
-# K-Means-and-Single-Link-Hierarchical-Clustering-on-World-Cities-dataset
+# K-Means-and-Single-Link-Hierarchical-Clustering-on-World-Cities-data
 
 A Data Mining project which focuses on the comparison between different un-supervised clustering algorithms.
 
