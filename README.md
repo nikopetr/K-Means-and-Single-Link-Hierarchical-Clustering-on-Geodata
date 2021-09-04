@@ -1,5 +1,7 @@
 # K-Means-and-Single-Link-Hierarchical-Clustering-on-World-Cities-data
 
+![Image of cities](https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/cities.jpg =100x20)
+
 A Data Mining project which focuses on the comparison between different un-supervised clustering algorithms.
 
 The project was part of the [Data Mining and Data Warehouses class](https://qa.auth.gr/el/class/1/40049931), where it was ranked first among the same type of projects.
@@ -9,7 +11,6 @@ The code of the project is located in the **clustering.R** file
 **Authors**: Nikolas Petrou, Salome Nikolaishvili
 
 ## Abstract - Introduction
-![Image of cities](https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/cities.jpg)
 * This simple work compares the K-Means algorithm versus the Single-Link Hierarchical Clustering algorithm
 * Mostly emphasized on the quality of the results and not on the performance
 * Consists of examples of geodata where the weaknesses of each algorithm were clearly shown
