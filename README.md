@@ -1,4 +1,4 @@
-# K-Means-and-Single-Link-Hierarchical-Clustering-on-World-Cities-data
+# K-Means and Single-Link Hierarchical Clustering on geographical data
 
 <p align="center">
   <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/cities.jpg" width="1000" height="500"/>
