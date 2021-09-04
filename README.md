@@ -4,6 +4,8 @@ A Data Mining project which focuses on the comparison between different un-super
 
 The project was part of the [Data Mining and Data Warehouses class](https://qa.auth.gr/el/class/1/40049931), where it was ranked first among the same type of projects.
 
+The code of the project is located in the **clustering.R** file
+
 **Authors**: Nikolas Petrou, Salome Nikolaishvili
 
 ## Abstract - Introduction
@@ -28,14 +30,14 @@ The project was part of the [Data Mining and Data Warehouses class](https://qa.a
 * The choice of cities and countries was done in a manner such that the different expected behaviour of the clustering methods would have been easily visualized and proved
 
 ### Example 1
-**Selected countries**: 
+* **Selected countries**: 
  * India
  * Iran
  * Mongolia
 * **648 cities (data samples)**
 
 ### Example 2
-**Selected countries**: 
+* **Selected countries**: 
  * Papua New Guinea
  * China
  * Philippines
