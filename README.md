@@ -6,9 +6,12 @@
 
 A Data Mining project which focuses on the comparison between different un-supervised clustering algorithms.
 
+
 The project was part of the [Data Mining and Data Warehouses class](https://qa.auth.gr/el/class/1/40049931), where it was ranked first among the same type of projects.
 
+
 The code of the project is located in the **clustering.R** file
+
 
 **Authors**: Nikolas Petrou, Salome Nikolaishvili
 
@@ -26,6 +29,9 @@ The code of the project is located in the **clustering.R** file
 * The last update of the dataset took place in November 2020
 
 ## Data Pre-processing
+<p align="center">
+  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/1.png" width="1000" height="500"/>
+</p>
 * Only kept samples with non-null features
 * Only the geographical coordinates (Latitude and Longitude) were kept and used as features
 
