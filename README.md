@@ -29,11 +29,12 @@ The code of the project is located in the **clustering.R** file
 * The last update of the dataset took place in November 2020
 
 ## Data Pre-processing
+* Only kept samples with non-null features
+* Only the geographical coordinates (Latitude and Longitude) were kept and used as features
+
 <p align="center">
   <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/1.png" width="1000" height="500"/>
 </p>
-* Only kept samples with non-null features
-* Only the geographical coordinates (Latitude and Longitude) were kept and used as features
 
 ## Comparison - Evaluation examples
 * Choice of cities of different countries - the cities of each country represent the actual-real clusters
@@ -46,6 +47,10 @@ The code of the project is located in the **clustering.R** file
  * Mongolia
 * **648 cities (data samples)**
 
+<p align="center">
+  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/2.png" width="1000" height="500"/>
+</p>
+
 ### Example 2
 * **Selected countries**: 
  * Papua New Guinea
@@ -53,6 +58,9 @@ The code of the project is located in the **clustering.R** file
  * Philippines
 * **906 cities (data samples)**
 
+<p align="center">
+  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/3.png" width="1000" height="500"/>
+</p>
 ## K-Means Clustering Results
 
 * During the evaluation of the K-Means algorithm, the elbow method showed that "optimal" number of clusters is three (as it was previously known since the cities used belong to three different countries)
@@ -68,6 +76,10 @@ The code of the project is located in the **clustering.R** file
 * Algorithm always converges (in iterations <30)
 * Execution time: 0.013 secs (nstart = 20)
 
+<p align="center">
+  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/4.png" width="1000" height="500"/>
+</p>
+
 ### Example 2
 * Poor clustering results
 * As expected since:
@@ -76,6 +88,10 @@ The code of the project is located in the **clustering.R** file
   * Different density of actual clusters
 * Algorithm always converges (in iterations <30)
 * Execution time: 0.017 secs (nstart = 20)
+
+<p align="center">
+  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/5.png" width="1000" height="500"/>
+</p>
 
 ## Single-Link Hierarchical Clustering Results
 
@@ -91,10 +107,18 @@ The code of the project is located in the **clustering.R** file
   * The nearby cities between India and Iran created a bridge during the process
 * Execution time: 0.033 secs 
 
+<p align="center">
+  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/6.png" width="1000" height="500"/>
+</p>
+
 ### Example 2
 * Accurate clustering
 * As expected since: Distances between countries (real clusters) are greater than the distances of the respective pairs of cities in each different country. That is, the algorithm finds a bridge to connect the cities of the same countries to the same cluster
 * Execution time: 0.042 secs 
+
+<p align="center">
+  <img src="https://github.com/nikopetr/K-Means-and-Single-Link-Hierarchical-Clustering-on-Geodata/blob/main/images/7.png" width="1000" height="500"/>
+</p>
 
 ### References - Useful Links
 * [K-means Clustering](https://en.wikipedia.org/wiki/K-means_clustering)
